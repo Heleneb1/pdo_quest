@@ -50,3 +50,66 @@ input[type="submit"]:hover {
   margin-top: 5px;
   font-style: italic;
 }
+.count {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  border: 1px solid #ccc;
+}
+.counter {
+  display: flex;
+  font-size: 2em;
+  text-align: center;
+  margin: 20px;
+  border: 1px solid #ccc;
+  background-color: #333;
+}
+.am_pm {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  background-color: rgb(43, 43, 43);
+  color: tomato;
+}
+.label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.2rem;
+  background-color: rgb(43, 43, 43);
+  padding: 2rem;
+  color: tomato;
+}
+.label p {
+  background-color: tomato;
+  color: #f8f4f4;
+  border: 1px solid;
+  width: 4rem;
+  padding: 0 0.5rem;
+}
+.label div {
+  border: 1px white solid;
+  border-right: none;
+  font-size: 3rem;
+  background-color: #020202;
+  color: aquamarine;
+  width: 7rem;
+  font-style: italic;
+}
+#counter2 .label div {
+  color: tomato;
+}
+.title {
+  font-size: 2rem;
+  color: white;
+  background: #020202;
+}
+.link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

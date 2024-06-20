@@ -60,7 +60,6 @@ $friends = $statement->fetchAll();
 // $statement = $pdo->query($query);
 // $result = $statement->fetch(PDO::FETCH_ASSOC);
 // print_r($result);
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -70,7 +69,10 @@ $friends = $statement->fetchAll();
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Liste d'amis</h1>
+        <div class="link">
+        <h1 ><a href="index.php">Liste d'amis</a></h1>
+        <h1><a href="date.php">Retour vers le futur</a></h1>
+        </div>
         <?php
         // On affiche chaque ami
         echo '<ul>';
@@ -79,6 +81,7 @@ $friends = $statement->fetchAll();
         }
         echo '</ul>';
         ?>
+        
         <h2>Ajouter un ami</h2>
      
         <form action="index.php" method="post">
